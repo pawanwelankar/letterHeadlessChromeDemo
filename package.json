@@ -1,0 +1,22 @@
+{
+  "name": "reporttesting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+	  
+    "test": "mocha test/ --reporter mochawesome"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chromedriver": "^123.0.2",
+    "selenium-webdriver": "^4.19.0"
+  },
+  "devDependencies": {
+    "chai": "^5.1.0",
+    "mocha": "^10.4.0",
+    "mochawesome": "^7.1.3"
+  }
+}
